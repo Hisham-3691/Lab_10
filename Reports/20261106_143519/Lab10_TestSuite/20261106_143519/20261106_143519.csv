@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Lab10_TestSuite,Edge Chromium 156,,,06-11-2026 14:35:30,06-11-2026 14:37:00,1m - 29.449s,FAILED
+,,,,,,,
+Test Cases/TestCase1,Edge Chromium 156,,,06-11-2026 14:36:10,06-11-2026 14:36:21,10.848s,FAILED
+"openBrowser("""")",Edge Chromium 156,,,06-11-2026 14:36:10,06-11-2026 14:36:12,2.360s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 156,,,06-11-2026 14:36:12,06-11-2026 14:36:18,5.910s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Edge Chromium 156,,,06-11-2026 14:36:18,06-11-2026 14:36:20,1.201s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Edge Chromium 156,,,06-11-2026 14:36:20,06-11-2026 14:36:20,0.808s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""), ""ThisIsNotAPassword"")",Edge Chromium 156,,,06-11-2026 14:36:20,06-11-2026 14:36:21,0.515s,FAILED
+,,,,,,,
+Test Cases/TestCase2,Edge Chromium 156,,,06-11-2026 14:36:51,06-11-2026 14:37:00,9.235s,FAILED
+"openBrowser("""")",Edge Chromium 156,,,06-11-2026 14:36:51,06-11-2026 14:36:53,2.272s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 156,,,06-11-2026 14:36:53,06-11-2026 14:36:57,4.048s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment (1)""))",Edge Chromium 156,,,06-11-2026 14:36:57,06-11-2026 14:36:58,1.163s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control (1)""))",Edge Chromium 156,,,06-11-2026 14:36:58,06-11-2026 14:36:59,0.417s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username (1)""), ""John Doe"")",Edge Chromium 156,,,06-11-2026 14:36:59,06-11-2026 14:36:59,0.785s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1""), ""ThisIsNotAPassword"")",Edge Chromium 156,,,06-11-2026 14:36:59,06-11-2026 14:37:00,0.498s,FAILED
